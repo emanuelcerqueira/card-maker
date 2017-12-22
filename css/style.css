@@ -38,7 +38,9 @@ input[type='text'] {
     background: #222;
     color: #FFF;
 }
-
+.card-img img {
+    max-width: 200px;
+}
 .card-subtitle {
     background: #FFF;
     color: #222;
