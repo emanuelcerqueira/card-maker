@@ -7,7 +7,7 @@ class Cards {
         this._cards.push(card);
     }
 
-    paraCard() {
+    array() {
         return [].concat(this._cards);
     }
 }
