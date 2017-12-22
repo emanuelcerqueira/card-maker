@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Card Maker</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container center">
+            <h1>Card Maker</h1>
+
+            <form class="form">
+                <div class="field">
+                    <label for="title">Title</label><br>
+                    <input type="text" id="title" required autofocus>
+                </div>
+
+                <div class="field">
+                    <label for="url">Image URL</label><br>
+                    <input placeholder="200X200" type="text" id="url" required>
+                </div>
+
+                <div class="field">
+                    <label for="subtitle">Subtitle</label><br>
+                    <input type="text" id="subtitle" required>
+                </div> 
+                <button class="btn" type="submit">Include card</button>               
+            </form>
+            <div id="cards"></div>
+        </div>
+        <script src="app/models/Card.js"></script>
+        <script src="app/controllers/CardController.js"></script>
+        <script src="app/models/Cards.js"></script>
+        <script src="app/views/CardView.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>
