@@ -16,6 +16,7 @@ class CardController {
         this._resetForm();
         
     }
+    
     _createCard() {
         return new Card(
             this._inputTitle.value,
@@ -23,6 +24,7 @@ class CardController {
             this._inputSubtitle.value
         );
     }
+
     _resetForm() {
         this._inputTitle.value = '';
         this._inputUrl.value = '';
