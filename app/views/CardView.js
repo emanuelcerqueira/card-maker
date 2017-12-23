@@ -11,7 +11,7 @@ class CardView {
         
         return `
         <ul>
-            ${model.array().map(card =>
+            ${model.cards.map(card =>
             `
             <li>
                 <div class="card">
