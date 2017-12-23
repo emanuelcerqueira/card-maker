@@ -1,14 +1,5 @@
-class CardView {
-    constructor(selector) {
-        this._element = document.querySelector(selector);
-    }
-
-    update(model) {
-        this._element.innerHTML = this.template(model);
-    }
-
-    template(model) {
-        
+class CardView extends View {
+    template(model) {    
         return `
         <ul>
             ${model.cards.map(card =>
