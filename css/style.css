@@ -72,6 +72,7 @@ input[type='text'] {
 }
 
 .btn {
+	border: none;
     border-radius: .3em;
     font-weight: bold;
     padding: .8em 1.5em;
