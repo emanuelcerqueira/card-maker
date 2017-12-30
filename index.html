@@ -13,19 +13,19 @@
             <h1>Card Maker</h1>
 
             <form class="form">
-                <div class="field">
+                <div class="input-field">
                     <label for="title">Title</label><br>
-                    <input type="text" id="title" required autofocus>
+                    <input type="text" id="title" maxlength="13" required autofocus>
                 </div>
 
-                <div class="field">
+                <div class="input-field">
                     <label for="url">Image URL</label><br>
-                    <input placeholder="200X200" type="text" id="url" required>
+                    <input placeholder=" 200X200" type="text" id="url" required>
                 </div>
 
-                <div class="field">
+                <div class="input-field">
                     <label for="subtitle">Subtitle</label><br>
-                    <input type="text" id="subtitle" required>
+                    <input maxlength="23" type="text" id="subtitle" required>
                 </div> 
                 <button class="btn" type="submit">Include card</button>               
             </form>

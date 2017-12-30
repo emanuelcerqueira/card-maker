@@ -27,17 +27,20 @@ label {
 }
 
 input[type='text'] {
+    background-color: #fbfbfb;
     border-radius: .15em;
     border: 1px solid #C0C0C0;
     font-size: 1.1em;
     width: 100%;
 }
+input[type='text']:focus {
+    background-color: #FFF;
+}
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
     width: 200px;
     text-align: center;
-    display: block;
 }
 
 .card-title {
@@ -48,16 +51,16 @@ input[type='text'] {
 }
 
 .card-img img {
-    max-width: 200px;
+    display: block;
+    width: 100%;
 }
 
 .card-subtitle {
     background: #FFF;
-    font-size: 1.1em;
-    padding: .4em 1em;
+    padding: .2em;
 }
 
-.field {
+.input-field {
     font-size: 1.1em;
     margin-bottom: .8em;
 }
