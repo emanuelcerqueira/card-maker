@@ -27,7 +27,7 @@ label {
 }
 
 input[type='text'] {
-    background-color: #fbfbfb;
+    background-color: #FAFAFA;
     border-radius: .15em;
     border: 1px solid #C0C0C0;
     font-size: 1.1em;
@@ -35,7 +35,7 @@ input[type='text'] {
 }
 
 input[type='text']:focus {
-    background-color: #FAFAFA;
+    background-color: #FCFCFC;
 }
 
 .card {
