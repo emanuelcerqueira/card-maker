@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background: #ECECEC;
     color: var(--base);
 }
@@ -17,17 +17,18 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
 ul {
     padding: 0;
 }
 
 li {
-    display: block;
-    float: left;
+    display: inline-block;
     margin: 1rem 1.6%;
 }
 
 label {
+    font-size: 1.3rem;
     line-height: 1.4rem;
 }
 
@@ -35,7 +36,7 @@ input[type='text'] {
     background-color: #FAFAFA;
     border-radius: .15rem;
     border: 1px solid #C0C0C0;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     width: 100%;
 }
 
@@ -84,10 +85,12 @@ input[type='text']:focus {
 .btn {
     border: none;
     border-radius: .3rem;
+	font-size: 1.3rem;
     font-weight: bold;
     padding: .8rem 1.5rem;
     color: #FFF;
     background-color: var(--primary-color);
+	border-bottom: 3px solid #0058b8;
 }
 
 @media screen and (max-width: 37rem){
