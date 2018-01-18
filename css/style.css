@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
     --base: #111;
     --primary-color: #006ee6;
@@ -8,12 +10,13 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
     background: #ECECEC;
     color: var(--base);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 h1 {
+    font-weight: normal;
     text-align: center;
     text-transform: uppercase;
 }
@@ -29,7 +32,7 @@ li {
 
 label {
     font-size: 1.3rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
 }
 
 input[type='text'] {
@@ -46,15 +49,15 @@ input[type='text']:focus {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    width: 200px;
     text-align: center;
+    width: 200px;
 }
 
 .card-title {
-    padding: .25rem;
-    font-size: 1.5rem;
     background: var(--base);
     color: #FFF;
+    font-size: 1.5rem;
+    padding: .25rem;
 }
 
 .card-img img {
@@ -83,14 +86,14 @@ input[type='text']:focus {
 }
 
 .btn {
-    border: none;
-    border-radius: .3rem;
-	font-size: 1.3rem;
-    font-weight: bold;
-    padding: .8rem 1.5rem;
-    color: #FFF;
     background-color: var(--primary-color);
+    border: none;
 	border-bottom: 3px solid #0058b8;
+    border-radius: .3rem;
+    color: #FFF;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: .8rem 1.5rem;
 }
 
 @media screen and (max-width: 37rem){
