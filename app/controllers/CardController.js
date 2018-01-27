@@ -14,7 +14,6 @@ class CardController {
         this._cards.add(this._createCard());
         this._cardsView.update(this._cards);
         this._resetForm();
-        
     }
     
     _createCard() {
@@ -30,6 +29,5 @@ class CardController {
         this._inputUrl.value = '';
         this._inputSubtitle.value = '';
         this._inputTitle.focus();
-
     }
 }
