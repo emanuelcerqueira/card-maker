@@ -37,7 +37,7 @@ label {
     line-height: 1.6rem;
 }
 
-input[type='text'] {
+.form-input {
     background-color: #FAFAFA;
     border-radius: .15rem;
     border: 1px solid #C0C0C0;
@@ -45,7 +45,7 @@ input[type='text'] {
     width: 100%;
 }
 
-input[type='text']:focus {
+.form-input:focus {
     background-color: #FCFCFC;
 }
 
